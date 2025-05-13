@@ -42,6 +42,7 @@ class Solution(object):
                 i += 1
             while i < j and not s[j].isalnum():
                 j -= 1
+                
             if s[i].lower() != s[j].lower():
                 return False
             i += 1
